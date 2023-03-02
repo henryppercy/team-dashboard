@@ -5,6 +5,7 @@ import TeamMembers from "@/components/Teams/TeamMembers.vue";
 import TeamFooter from "@/components/Teams/TeamFooter.vue";
 
 let team = useTeamStore();
+
 team.fill();
 </script>
 
